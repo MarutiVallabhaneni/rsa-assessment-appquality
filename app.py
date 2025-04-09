@@ -16,4 +16,4 @@ def check_integer():
         return jsonify({"error": "Invalid input"})
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True,port=8080)
